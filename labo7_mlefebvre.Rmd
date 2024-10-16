@@ -1,0 +1,33 @@
+---
+title: "Laboratoire 7"
+output: "html_document"
+---
+
+# Question 1
+
+Types de pseudoréplication :
+Pseudoréplication simple, pas de réplication, impossible de distinguer le traitement de l'unité expérimentale
+
+Pseudoréplication sacrificielle
+
+Pseudoréplication temporelle
+
+# Question 2
+
+## 2.a
+
+Nous effectuons une ANOVA :
+
+```{r}
+setwd("~/Documents/donnees_eco/Labo7")
+temps <- read.table("Temps.txt")
+
+```
+ANOVA a facteur multiples, blocs aléatoires
+
+Test de Tukey pour déterminer
+
+
+## 2.b
+
+Les blocs aléatoires blabla
